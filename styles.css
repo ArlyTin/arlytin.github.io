@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com");
+
+body {
+    background-color: #FFF1E6;
+}
+h1 {
+    color: #985D73;
+    font-family: Kodchasan, serif;
+    font-style: italic;
+    font-size: 48px;
+}
+p {
+    color: darkslategray;
+    font-family: Corbel, sans-serif;
+    font-size: clamp(0.5rem, 1vw + 0.5rem, 1rem);
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: justify;
+    text-indent: 24px;
+}
+
+.contactButton{
+    padding: 2em;
+    background-color: #97A3C3;
+    text-align: center;
+    border-radius: 8px;
+    border: darkslategray 1px;
+    font-size: 1.5em;
+}
+.resumeButton{
+
+}
+
+.containerGridParentAbout{
+    display: grid;
+    grid-template-columns: 800px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em;
+    grid-template-areas:
+            "box6 box6 box6 box6 box6"
+            "box1 box1 box2 box2 box2"
+            "box1 box1 box2 box2 box2"
+            "box1 box1 box2 box2 box2"
+            "box1 box1 box3 box4 box5"
+            "box1 box1 box7 box7 box7";
+
+    justify-content: center;
+    align-content: center;
+}
+
+.gridPortfolio{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em;
+    grid-template-areas:
+            "box-1 box-1 box-1"
+            "box-2 box-3 box-2"
+            "box-2 box-4 box-2"
+            "box-5 box-6 box-5"
+            "box-5 box-7 box-5";
+
+}
+
+.box{
+    padding: 2em;
+    background-color: #97A3C3;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5em;
+}
+
+.containerBorderGrad
+{
+    background: linear-gradient(white,white)
+    padding-box, linear-gradient(#97A3C3, #DFE7FD) border-box;
+    border-radius: 15px;
+    border: 8px solid transparent;
+}
+
+.containerBorderGrad{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    color: #985D73;
+    font-style: italic;
+    font-family: Kodchasan, serif;
+    font-size: clamp(2rem, 4vw + 1rem, 5rem);
+}
+
+.containerImage{
+    /*background-image: url("C:\Users\Arly\OneDrive\Pictures\cocoWitchHat.jpg");*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #92B4B9 5px;
+    border-radius: 10px;
+}
+
+.topnav {
+    background-image: linear-gradient(to bottom, #FAD2E1, #DFE7FD);
+    border: medium solid #DFB3C4;
+    border-radius: 45px;
+    overflow: hidden;
+    height: 128px;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #985D73;
+    text-align: center;
+    padding: 24px 48px;
+    text-decoration: none;
+    font-family: Kodchasan, serif;
+    font-style: italic;
+    font-size: 48px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #FFF1E699;
+    border-radius: 25px;
+    border: 104px;
+    color: darkslategray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #985D7333;
+    border-radius: 40px 25px 25px 40px;
+    color: #97A3C3;
+}
+/*
+Color Palette used
+#EAE4E9
+#FFF1E6
+#FDE2E4
+#FAD2E1
+#E2ECE9
+#BEE1E6
+#F0EFEB
+#DFE7FD
+#CDDAFD
+*/
