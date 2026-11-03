@@ -29,29 +29,34 @@ p {
 
 .contactButton{
     text-decoration: none;
-    padding: 2em;
+    padding: 1em;
     background-color: #97A3C3;
     text-align: center;
     border-radius: 8px;
     border: darkslategray 1px;
     font-size: 1.5em;
 }
-.resumeButton{
-
-}
 
 .iconButtons{
-    width: 100%;
-    padding: 2em;
-
-    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 100px;
 }
+
 .iconButtons:hover{
     opacity: 0.7;
 }
 
+.iconButtonsImg{
+    filter: ;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
 .containerGridParentAbout{
     display: grid;
+    overflow: auto;
     grid-template-columns: 800px 200px 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
     gap: 1em;
@@ -81,8 +86,9 @@ p {
 
 .gridHomePage{
     display: grid;
+    padding: 100px;
     grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 50%);
     gap: 1em;
     grid-template-areas:
             "box_1 box_1 box_2 box_2"
@@ -95,11 +101,11 @@ p {
 
 .box{
     padding: 2em;
-    text-decoration: none;
     background-color: #97A3C3;
-    text-align: center;
     border-radius: 8px;
-    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
 }
 
 .projectCard{
@@ -114,6 +120,15 @@ p {
     align-items: center;
     place-items: center;
 }
+
+.projectCardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border: 8px solid #4d6569;
+}
+
 
 .projectCard:hover{
     box-shadow: 0 5px 5px #253538;
@@ -205,6 +220,4 @@ Color Palette used
 #F0EFEB
 #DFE7FD
 #CDDAFD
-                <iframe src="https://marvelapp.com/prototype/33fe7h36?emb=1&iosapp=false&frameless=false" width="453" height="864" allowTransparency="true" frameborder="0" style="-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);"></iframe>
-
 */
