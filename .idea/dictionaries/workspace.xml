@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00ad17e-13b1-483f-b3da-82817c3d217a" name="Changes" comment="mionor changeds!">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/vcs.xml" afterDir="false" />
+    <list default="true" id="e00ad17e-13b1-483f-b3da-82817c3d217a" name="Changes" comment="more stuff">
+      <change afterPath="$PROJECT_DIR$/cocoWitchHat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowers.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiffery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchio-logo-textless-white.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websitePortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/websitePortfolio.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +44,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Arly/IdeaProjects/websitePortfolio",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,9 +61,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Arly\IdeaProjects\websitePortfolio\.idea\dictionaries" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Arly\IdeaProjects\websitePortfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arly\IdeaProjects\websitePortfolio" />
+      <recent name="C:\Users\Arly\IdeaProjects\websitePortfolio\.idea\dictionaries" />
       <recent name="C:\Users\Arly\IdeaProjects\websitePortfolio\.idea" />
     </key>
   </component>
@@ -89,7 +92,7 @@
       <workItem from="1792531042279" duration="2659000" />
       <workItem from="1793213463506" duration="4797000" />
       <workItem from="1793372812862" duration="3408000" />
-      <workItem from="1793724988474" duration="4677000" />
+      <workItem from="1793724988474" duration="9156000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <option name="closed" value="true" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793218393077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more stuff">
+      <option name="closed" value="true" />
+      <created>1793730229225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1793730229225</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +144,7 @@
     <MESSAGE value="push" />
     <MESSAGE value="progress for today!" />
     <MESSAGE value="mionor changeds!" />
-    <option name="LAST_COMMIT_MESSAGE" value="mionor changeds!" />
+    <MESSAGE value="more stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="more stuff" />
   </component>
 </project>
