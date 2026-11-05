@@ -67,9 +67,11 @@ p {
 .containerGridParentAbout{
     display: grid;
     overflow: auto;
-    grid-template-columns: 800px 200px 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 800px repeat(5, 200px);
+    grid-template-rows: repeat(3, 200px);
     gap: 1em;
+    justify-content: center;
+    align-content: center;
     grid-template-areas:
             "box6 box6 box6 box6 box6"
             "box1 box1 box2 box2 box2"
@@ -77,9 +79,6 @@ p {
             "box1 box1 box2 box2 box2"
             "box1 box1 box3 box4 box5"
             "box1 box1 box7 box7 box7";
-
-    justify-content: center;
-    align-content: center;
 }
 
 .gridPortfolio{
@@ -97,8 +96,8 @@ p {
 .gridHomePage{
     display: grid;
     padding: 75px;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(6, 25%);
+    grid-template-columns:repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(min(50px, 6), 1fr));
     gap: 1em;
     grid-template-areas:
             "box_1 box_1 box_2 box_2"
@@ -120,6 +119,8 @@ p {
 }
 
 .bentoBox{
+    display: grid;
+    resize: none;
     background-image: linear-gradient(to bottom right, #97A3C3, #FAD2E1);
     padding: 2em;
     border: medium solid #DFB3C4;
@@ -128,8 +129,17 @@ p {
     place-content: center;
     overflow: hidden;
     font-size: large;
-    display: grid;
 }
+
+.bentoBoxFiller{
+    object-fit: cover;
+    justify-content: center;
+    place-content: center;
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+}
+
 .containerImg {
     width: 100%;
     height: 100%;
@@ -138,6 +148,7 @@ p {
 
 .projectCard{
     overflow: hidden;
+    display: grid;
     background-color: #EAE4E9;
     text-decoration: none;
     box-shadow: 5px 5px #4d6569;
@@ -148,15 +159,6 @@ p {
     align-items: center;
     place-items: center;
 }
-
-.projectCardHeader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    border: 8px solid #4d6569;
-}
-
 
 .projectCard:hover{
     box-shadow: 0 5px 5px #253538;
@@ -248,4 +250,6 @@ Color Palette used
 #F0EFEB
 #DFE7FD
 #CDDAFD
+
+<img src="cocoWitchHat.jpg" alt="small girl">
 */

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00ad17e-13b1-483f-b3da-82817c3d217a" name="Changes" comment="more stuff">
-      <change afterPath="$PROJECT_DIR$/cocoWitchHat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowers.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiffery.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itchio-logo-textless-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="e00ad17e-13b1-483f-b3da-82817c3d217a" name="Changes" comment="more changes!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +83,7 @@
       <workItem from="1792531042279" duration="2659000" />
       <workItem from="1793213463506" duration="4797000" />
       <workItem from="1793372812862" duration="3408000" />
-      <workItem from="1793724988474" duration="9156000" />
+      <workItem from="1793724988474" duration="9214000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <option name="closed" value="true" />
@@ -134,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793730229225</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more changes!">
+      <option name="closed" value="true" />
+      <created>1793734754601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1793734754601</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +144,7 @@
     <MESSAGE value="progress for today!" />
     <MESSAGE value="mionor changeds!" />
     <MESSAGE value="more stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="more stuff" />
+    <MESSAGE value="more changes!" />
+    <option name="LAST_COMMIT_MESSAGE" value="more changes!" />
   </component>
 </project>
